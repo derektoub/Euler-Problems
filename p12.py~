@@ -9,3 +9,4 @@ while numFactors(triangNum(n)) < 500:
     n += 1
 elapsed = time.time() - start
 print triangNum(n)
+print "%s seconds elapsed" % elapsed
