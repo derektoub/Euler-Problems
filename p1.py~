@@ -5,7 +5,7 @@ for i in range(3,1000):
         sumT += i
 print sumT
 
-#Slightly more thought, fewer iterations, and more memory usage
+#Slightly more thought (and more memory usage)
 from sets import Set
 x = 3
 y = 5
