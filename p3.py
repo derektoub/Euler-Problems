@@ -1,4 +1,4 @@
-# Making a function that returns all the prime factors so I can use this later 
+# Making a function that returns all the prime factors so I can use this later
 # in problem 5
 import time
 def prime_factors(n):
@@ -25,4 +25,3 @@ a = prime_factors(n)
 elapsed = (time.time() - start)
 print max(a)
 print "%s seconds elapsed" % elapsed
-
