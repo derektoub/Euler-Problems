@@ -48,4 +48,3 @@ else:
         print "Bigger list/number please"
         exit(1)
 print prod
-

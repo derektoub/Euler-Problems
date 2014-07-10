@@ -1,6 +1,12 @@
+import time
+start = time.time()
 maxT = 0
 for x in range(100, 1000):
     for y in range(100,1000):
-        if str(x*y) == str(x*y)[::-1] and x*y > maxT:
-            maxT = x*y
+        a = x*y
+        b = str(a)
+        if b == b[::-1] and a > maxT:
+            maxT = a
+elapsed = time.time() - start
 print maxT
+print "%s seconds elapsed" % elapsed
