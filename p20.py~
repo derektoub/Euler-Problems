@@ -1,4 +1,4 @@
-# Again, big numbers are no problem in python
+
 def factorial(n):
     product = 1
     if n == 1:
