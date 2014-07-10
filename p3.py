@@ -1,5 +1,5 @@
 # Making a function that returns all the prime factors so I can use this later 
-# in problem 5 (keeping number of occurences because why not)
+# in problem 5
 import time
 def prime_factors(n):
     i = 2
