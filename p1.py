@@ -11,11 +11,10 @@ print sumT
 
 #Slightly more thought, fewer iterations, and more memory usage
 #Actually ends up taking as long or longer than Method 1
-from sets import Set
 start = time.time()
 x = 3
 y = 5
-setT = Set([])
+setT = {}
 sumT = 0
 for mult in range(1,200): # 5*200 = 1000. 200 is the bound on the multiple of 5.
     setT.add(y*mult)
@@ -24,8 +23,3 @@ for mult in range(1,334): # 3*333 = 999.
 elapsed = time.time() - start
 print "Method 2: %s seconds elapsed" % elapsed
 print sum(setT)
-    
-
-    
-
-    
