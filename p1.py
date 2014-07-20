@@ -10,7 +10,6 @@ print "Method 1: %s seconds elapsed" % elapsed
 print sumT
 
 #Slightly more thought, fewer iterations, and more memory usage
-#Actually ends up taking as long or longer than Method 1
 start = time.time()
 x = 3
 y = 5
